@@ -1,0 +1,23 @@
+.NavItem {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	height: 100%;
+	padding: 1.2em;
+	letter-spacing: 2px;
+	font-size: 1.6em;
+	background-color: rgb(0, 0, 0);
+	color: white;
+}
+
+.NavItem svg {
+	width: 24px;
+	height: 24px;
+}
+
+.Desktop {
+	display: flex;
+	gap: 16px;
+	height: 24px;
+	align-items: center;
+}
