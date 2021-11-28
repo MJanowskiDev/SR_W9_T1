@@ -1,13 +1,15 @@
 .NavItem {
 	display: flex;
 	flex-direction: column;
-	gap: 20px;
+	gap: 24px;
 	height: 100%;
 	padding: 1.2em;
 	letter-spacing: 2px;
 	font-size: 1.6em;
 	background-color: rgb(0, 0, 0);
 	color: white;
+	--nav-item-active-color: #ffc857;
+	user-select: none;
 }
 
 .NavItem svg {
@@ -15,9 +17,18 @@
 	height: 24px;
 }
 
+.NavItem a {
+	text-decoration: none;
+	color: white;
+}
+
 .Desktop {
+	height: 34px;
+	align-items: center;
 	display: flex;
 	gap: 16px;
-	height: 24px;
-	align-items: center;
+}
+
+.Mobile {
+	height: 34px;
 }
