@@ -1,11 +1,11 @@
-import PassphraseForm from 'components/PassphraseForm';
+import AuthWrapper from 'components/PassphraseForm';
 
 function App() {
-	return (
-		<PassphraseForm>
-			<PassphraseForm.Content />
-		</PassphraseForm>
-	);
+    return (
+        <AuthWrapper>
+            <AuthWrapper.Content />
+        </AuthWrapper>
+    );
 }
 
 export default App;
